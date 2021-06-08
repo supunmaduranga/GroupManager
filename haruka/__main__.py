@@ -29,17 +29,16 @@ I'm group manager bot and Anti-spam for RR Players🃏
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
+Made from the source code of [slgeekshow 🇱🇰](t.me/slbotzone)
 
-Special thanks to [this person](t.me/denver02) for helping me.
+Special thanks to [😎this person😎](t.me/supunma) for helping me.
 
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
+Deploy a bot like me [now](www.github.com/supunmadurangasl)
 
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
-
+Watch [video tutorial](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1) on deploying me.
 Click /help or Help button below to find out more about how to use me to my full potential.
 
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+ Add me to a group by clicking [✔️here✔️](http://t.me/Drakiulabot?startgroup=true).
 """
 
 
@@ -157,9 +156,9 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START
 
-    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_")]]
+    keyboard = [[InlineKeyboardButton(text="🇱🇰Language", callback_data="set_lang_")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Reporting", callback_data="cntrl_panel_M"), 
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
+        InlineKeyboardButton(text="❔ Help 😎", callback_data="help_back")]]
 
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
